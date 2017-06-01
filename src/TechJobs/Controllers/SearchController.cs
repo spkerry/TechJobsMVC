@@ -32,7 +32,7 @@ namespace TechJobs.Controllers
             }
 
             ViewBag.jobs = jobs;
-
+            ViewBag.check = searchType;
             return View("Index");
         }
     }
